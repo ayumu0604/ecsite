@@ -1,0 +1,16 @@
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+/Users/ayumu/.rbenv/versions/3.2.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240920-25650-3kzc4i sitelibdir\=./.gem.20240920-25650-3kzc4i clean
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240920-25650-3kzc4i sitelibdir\=./.gem.20240920-25650-3kzc4i
+make: Nothing to be done for `all'.
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240920-25650-3kzc4i sitelibdir\=./.gem.20240920-25650-3kzc4i install
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/json-2.7.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20240920-25650-3kzc4i sitelibdir\=./.gem.20240920-25650-3kzc4i clean
