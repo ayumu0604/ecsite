@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.16".freeze
   s.summary = "Code style checking for RSpec files".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

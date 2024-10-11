@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.4.8".freeze
   s.summary = "HTTP User Agent parser".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

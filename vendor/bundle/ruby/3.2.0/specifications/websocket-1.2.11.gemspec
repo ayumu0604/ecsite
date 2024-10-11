@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.11".freeze
   s.summary = "Universal Ruby library to handle WebSocket protocol".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 end

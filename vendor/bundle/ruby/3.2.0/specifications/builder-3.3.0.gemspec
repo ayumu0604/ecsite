@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.5.9".freeze
   s.summary = "Builders for MarkUp.".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 end

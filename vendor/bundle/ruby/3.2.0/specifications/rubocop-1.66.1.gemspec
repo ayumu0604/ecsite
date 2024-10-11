@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.4.22".freeze
   s.summary = "Automatic Ruby code style checking tool.".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 
