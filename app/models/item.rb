@@ -5,4 +5,7 @@ class Item < ApplicationRecord
 
     has_many :tems_in_carts
     has_many :purchase_details
+
+    #list宣言
+
 end

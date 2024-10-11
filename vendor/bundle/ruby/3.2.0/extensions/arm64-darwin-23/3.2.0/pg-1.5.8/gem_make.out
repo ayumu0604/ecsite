@@ -27,10 +27,10 @@ creating extconf.h
 creating Makefile
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/pg-1.5.8/ext
-make DESTDIR\= sitearchdir\=./.gem.20240920-31389-j7y6gv sitelibdir\=./.gem.20240920-31389-j7y6gv clean
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-1f1q2 sitelibdir\=./.gem.20241009-90012-1f1q2 clean
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/pg-1.5.8/ext
-make DESTDIR\= sitearchdir\=./.gem.20240920-31389-j7y6gv sitelibdir\=./.gem.20240920-31389-j7y6gv
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-1f1q2 sitelibdir\=./.gem.20241009-90012-1f1q2
 compiling gvl_wrappers.c
 In file included from gvl_wrappers.c:6:
 In file included from ./pg.h:60:
@@ -245,9 +245,9 @@ linking shared-object pg_ext.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/pg-1.5.8/ext
-make DESTDIR\= sitearchdir\=./.gem.20240920-31389-j7y6gv sitelibdir\=./.gem.20240920-31389-j7y6gv install
-/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20240920-31389-j7y6gv
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-1f1q2 sitelibdir\=./.gem.20241009-90012-1f1q2 install
+/usr/bin/install -c -m 0755 pg_ext.bundle ./.gem.20241009-90012-1f1q2
 installing pg_ext libraries
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/pg-1.5.8/ext
-make DESTDIR\= sitearchdir\=./.gem.20240920-31389-j7y6gv sitelibdir\=./.gem.20240920-31389-j7y6gv clean
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-1f1q2 sitelibdir\=./.gem.20241009-90012-1f1q2 clean

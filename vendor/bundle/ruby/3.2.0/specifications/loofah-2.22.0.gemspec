@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.4.19".freeze
   s.summary = "Loofah is a general library for manipulating and transforming HTML/XML documents and fragments, built on top of Nokogiri.".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 

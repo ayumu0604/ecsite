@@ -12,17 +12,17 @@ checking for HAVE_RUBY_FIBER_SCHEDULER_H... yes
 creating Makefile
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240920-25650-fbyw60 sitelibdir\=./.gem.20240920-25650-fbyw60 clean
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-xdopck sitelibdir\=./.gem.20241009-90012-xdopck clean
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240920-25650-fbyw60 sitelibdir\=./.gem.20240920-25650-fbyw60
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-xdopck sitelibdir\=./.gem.20241009-90012-xdopck
 compiling console.c
 linking shared-object io/console.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240920-25650-fbyw60 sitelibdir\=./.gem.20240920-25650-fbyw60 install
-/usr/bin/install -c -m 0755 console.bundle ./.gem.20240920-25650-fbyw60/io
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-xdopck sitelibdir\=./.gem.20241009-90012-xdopck install
+/usr/bin/install -c -m 0755 console.bundle ./.gem.20241009-90012-xdopck/io
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/io-console-0.7.2/ext/io/console
-make DESTDIR\= sitearchdir\=./.gem.20240920-25650-fbyw60 sitelibdir\=./.gem.20240920-25650-fbyw60 clean
+make DESTDIR\= sitearchdir\=./.gem.20241009-90012-xdopck sitelibdir\=./.gem.20241009-90012-xdopck clean

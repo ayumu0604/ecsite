@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.rubygems_version = "3.4.6".freeze
   s.summary = "Simple testing API built on Rack".freeze
 
-  s.installed_by_version = "3.5.18".freeze if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.5.21".freeze if s.respond_to? :installed_by_version
 
   s.specification_version = 4
 
