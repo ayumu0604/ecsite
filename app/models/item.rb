@@ -7,5 +7,15 @@ class Item < ApplicationRecord
     has_many :purchase_details
 
     #list宣言
+    def findByName(name, categoryId)
+
+        list = []
+
+        items = ItemsValue.new()
+
+        #データの追加
+
+        Item.left_outer_joins(:categories).where("name LIKE ? and category_id = ?", "%#{items.name}%", cagory.category_id)
+    end
 
 end
