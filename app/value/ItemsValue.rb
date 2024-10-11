@@ -1,4 +1,4 @@
-class UsersValue
+class ItemsValue
     attr_accessor :itemId, :name, :manufacturer, :categoryId, :color, :price, :stock, :recommended
 
   def initialize(itemId, name, manufacturer, categoryId, color, price, stock, recommended)
