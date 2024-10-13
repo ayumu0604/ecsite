@@ -32,18 +32,18 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-id2jjx sitelibdir\=./.gem.20241009-90012-id2jjx clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-36ebl3 sitelibdir\=./.gem.20241012-45227-36ebl3 clean
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-id2jjx sitelibdir\=./.gem.20241009-90012-id2jjx
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-36ebl3 sitelibdir\=./.gem.20241012-45227-36ebl3
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-id2jjx sitelibdir\=./.gem.20241009-90012-id2jjx install
-/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20241009-90012-id2jjx
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-36ebl3 sitelibdir\=./.gem.20241012-45227-36ebl3 install
+/usr/bin/install -c -m 0755 bigdecimal.bundle ./.gem.20241012-45227-36ebl3
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bigdecimal-3.1.8/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-id2jjx sitelibdir\=./.gem.20241009-90012-id2jjx clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-36ebl3 sitelibdir\=./.gem.20241012-45227-36ebl3 clean

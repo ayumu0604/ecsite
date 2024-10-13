@@ -1,8 +1,8 @@
 class ItemsValue
     attr_accessor :itemId, :name, :manufacturer, :categoryId, :color, :price, :stock, :recommended
 
-  def initialize(itemId, name, manufacturer, categoryId, color, price, stock, recommended)
-    @itemId = itemId
+  def initialize(item_id:, name:, manufacturer:, categoryId:, color:, price:, stock:, recommended:)
+    @item_id = item_id
     @name = name
     @manufacturer = manufacturer
     @categoryId = categoryId

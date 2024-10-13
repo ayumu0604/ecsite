@@ -6,16 +6,37 @@ class Item < ApplicationRecord
     has_many :tems_in_carts
     has_many :purchase_details
 
-    #list宣言
-    def findByName(name, categoryId)
+    def self.findByName(name, categoryId)
 
         list = []
 
-        items = ItemsValue.new()
+        #items = Item.left_outer_joins(:category).where("items.name LIKE ? and items.category_id = ?", "%#{@name}%", @category_id).order("items.item_id")
+        
+        items = Item.joins(:category).where("items.name LIKE ? and items.category_id = ?", "%#{@name}%", @category_id).order("items.item_id")
 
-        #データの追加
+        items.find_each do |item|
+            items = ItemsValue.new(
+                item_id: item.item_id,
+                name: item.name,
+                manufacturer: item.manufacturer,
+                categoryId: item.category_id,
+                color: item.color,
+                price: item.price,
+                stock: item.stock,
+                recommended: item.recommended,
+                category_name: item.category.name
+            )
 
-        Item.left_outer_joins(:categories).where("name LIKE ? and category_id = ?", "%#{items.name}%", cagory.category_id)
+            # categories = CategoriesValue.new(
+            #     category_id: item.category.id,
+            #     name: item.category.name
+            # )
+
+            list << items
+        end
+
+        list
+
     end
 
 end
