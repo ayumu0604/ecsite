@@ -7,17 +7,17 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-oqwkia sitelibdir\=./.gem.20241009-90012-oqwkia clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-1mmfg4 sitelibdir\=./.gem.20241012-45227-1mmfg4 clean
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-oqwkia sitelibdir\=./.gem.20241009-90012-oqwkia
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-1mmfg4 sitelibdir\=./.gem.20241012-45227-1mmfg4
 compiling bootsnap.c
 linking shared-object bootsnap/bootsnap.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-oqwkia sitelibdir\=./.gem.20241009-90012-oqwkia install
-/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20241009-90012-oqwkia/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-1mmfg4 sitelibdir\=./.gem.20241012-45227-1mmfg4 install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20241012-45227-1mmfg4/bootsnap
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.18.4/ext/bootsnap
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-oqwkia sitelibdir\=./.gem.20241009-90012-oqwkia clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-1mmfg4 sitelibdir\=./.gem.20241012-45227-1mmfg4 clean

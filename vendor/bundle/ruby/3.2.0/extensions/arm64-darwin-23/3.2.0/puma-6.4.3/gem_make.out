@@ -16,10 +16,10 @@ checking for Random.bytes... yes
 creating Makefile
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/puma-6.4.3/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-t8qrs1 sitelibdir\=./.gem.20241009-90012-t8qrs1 clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-cnxljs sitelibdir\=./.gem.20241012-45227-cnxljs clean
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/puma-6.4.3/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-t8qrs1 sitelibdir\=./.gem.20241009-90012-t8qrs1
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-cnxljs sitelibdir\=./.gem.20241012-45227-cnxljs
 compiling http11_parser.c
 compiling mini_ssl.c
 compiling puma_http11.c
@@ -27,8 +27,8 @@ linking shared-object puma/puma_http11.bundle
 ld: warning: ignoring duplicate libraries: '-lruby.3.2'
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/puma-6.4.3/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-t8qrs1 sitelibdir\=./.gem.20241009-90012-t8qrs1 install
-/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20241009-90012-t8qrs1/puma
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-cnxljs sitelibdir\=./.gem.20241012-45227-cnxljs install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20241012-45227-cnxljs/puma
 
 current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/puma-6.4.3/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20241009-90012-t8qrs1 sitelibdir\=./.gem.20241009-90012-t8qrs1 clean
+make DESTDIR\= sitearchdir\=./.gem.20241012-45227-cnxljs sitelibdir\=./.gem.20241012-45227-cnxljs clean
