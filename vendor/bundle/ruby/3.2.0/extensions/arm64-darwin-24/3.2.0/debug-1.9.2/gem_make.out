@@ -1,0 +1,20 @@
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+/Users/ayumu/.rbenv/versions/3.2.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241014-30115-eocsnt sitelibdir\=./.gem.20241014-30115-eocsnt clean
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241014-30115-eocsnt sitelibdir\=./.gem.20241014-30115-eocsnt
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241014-30115-eocsnt sitelibdir\=./.gem.20241014-30115-eocsnt install
+/usr/bin/install -c -m 0755 debug.bundle ./.gem.20241014-30115-eocsnt/debug
+
+current directory: /Users/ayumu/Desktop/ecsite_varRuby/ecsite/vendor/bundle/ruby/3.2.0/gems/debug-1.9.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20241014-30115-eocsnt sitelibdir\=./.gem.20241014-30115-eocsnt clean

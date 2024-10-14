@@ -1,9 +1,9 @@
 class CategoriesValue
-    attr_accessor :categoryId, :name
+    attr_accessor :category_id, :name
   
-    def initialize(categoryId, name)
+    def initialize(category_id:, name:)
       @category_id = category_id
-      @name = name
+      @category_name = category_name
     end
 end
   
