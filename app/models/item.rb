@@ -3,19 +3,19 @@ class Item < ApplicationRecord
 
     self.primary_key = :item_id
 
-    has_many :tems_in_carts
+    has_many :items_in_carts
     has_many :purchase_details
 
-    def self.findByName(name, categoryId)
+    def self.findByName(name, category_id)
 
         list = []
 
-        #items = Item.left_outer_joins(:category).where("items.name LIKE ? and items.category_id = ?", "%#{@name}%", @category_id).order("items.item_id")
-        
-        items = Item.joins(:category).where("items.name LIKE ? and items.category_id = ?", "%#{@name}%", @category_id).order("items.item_id")
+        items = Item.left_outer_joins(:category).where("items.name LIKE ? and items.category_id = ?", "%#{name}%", category_id).order("items.item_id")
 
+        puts "SQL Query: #{items.to_sql}"
+        
         items.find_each do |item|
-            items = ItemsValue.new(
+            item_value = ItemsValue.new(
                 item_id: item.item_id,
                 name: item.name,
                 manufacturer: item.manufacturer,
@@ -24,7 +24,7 @@ class Item < ApplicationRecord
                 price: item.price,
                 stock: item.stock,
                 recommended: item.recommended,
-                category_name: item.category.name
+                category_name: item.category&.name
             )
 
             # categories = CategoriesValue.new(
@@ -32,9 +32,10 @@ class Item < ApplicationRecord
             #     name: item.category.name
             # )
 
-            list << items
+            list << item_value
         end
 
+        puts "Found items: #{list.inspect}"
         list
 
     end
